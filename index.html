@@ -4,31 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DEVJS</title>
+
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header>
-        <nav>
+    <header id="header-principal">
+        <nav id="navegacao-principal">
             <ul>
                 <span id="logo">
-                    <span>Dev</span>js
+                    <span style="font-weight: 700;">Dev</span>js
                 </span>
-                <li>Início</li>
-                <li>Sobre nós</li>
-                <li>Benefícios</li>
-                <li>Depoimento</li>
-                <li>Inscrição</li>
+                
+                <div>
+                    <li>Início</li>
+                    <li>Sobre nós</li>
+                    <li>Benefícios</li>
+                    <li>Depoimento</li>
+                    <li style="background: none; margin-right: 0">Inscrição</li>
+                </div>
+                
             </ul>
         </nav>
     </header>
     <main>
         <!--Início da section apresentação-->
-        <section id="section-apresentacao">
-            <header><h1>Bem vindo(a) ao Devjs</h1></header>
-            <h2>Desbrave o universo do JavaScript com nosso curso, onde você explorará não apenas o JavaScript, mas também tecnologias avançadas como Node.js.</h2>
-            <a href="">Entre Já</a>
-        
-        <!--Fim da section apresentação-->
-        </section>
+        <div class="centralizar-div">
+            <section id="section-apresentacao">
+                <div id="div-primeira-box-do-section-apresentacao">
+                    <header><h1>Bem vindo(a) ao Devjs</h1></header>
+                    <h2>
+                        Desbrave o universo do JavaScript com nosso curso, onde você explorará não apenas o JavaScript, mas também tecnologias avançadas como Node.js.
+                    </h2>
+                </div>
+                
+                <button type="button">
+                    <a href="#formulario">Entre Já</a>
+                </button>
+            
+            <!--Fim da section apresentação-->
+            </section>
+        </div>
 
         <!--Início da section sobre nós-->
         <section id="section-sobre-nos">
@@ -120,7 +135,7 @@
                 </p>
             </header>
 
-            <form action="">
+            <form action="" id="formulario">
                 <label for="nome">nome</label>
                 <input type="text" name="nome" id="nome">
                 
@@ -147,7 +162,7 @@
             <li>
                 <a href="https://www.linkedin.com/in/jo%C3%A3o-marcos-153099303/"><img src="./img/svg/linkedin-icon.svg" alt="github"></a>
             </li>
-        </ul>
+        </ul>   
         
         <span>Copyright © 2024</span>
     </footer>

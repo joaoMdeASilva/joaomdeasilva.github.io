@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+:root {
+  --branco: #fff;
+  --preto: #01030B;
+  --cor-primaira: #070D2C;
+  --cor-secundaria: #080F33;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #070D2C;
+  color: var(--branco);
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+h1, h2, h3{
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  border: none;
+  background: none;
+} 
+
+a {
+  text-decoration: none;
+  color: var(--branco);
+}
+
+.centralizar-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*header principal*/
+#header-principal {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  background-color: var(--preto);
+  position: fixed;
+  
+  width: 100%;
+}
+
+
+/*navegação principal*/
+
+/*logo*/
+#logo {
+  text-transform: uppercase;
+}
+
+#navegacao-principal {
+  box-sizing: border-box;
+  padding: 0 40px;
+  width: 100%;
+}
+
+#navegacao-principal ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+#navegacao-principal div { 
+  display: flex;
+
+}
+
+#navegacao-principal div li {
+  padding: 0 12px;
+  background: url('../img/svg/divisoria-de-navegacao.svg') right center no-repeat; 
+}
+
+/*section apresentação*/
+#section-apresentacao {
+  width: fit-content;
+  text-align: center;
+  padding-top: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+
+#section-apresentacao h2 {
+  font-weight: 400;
+  font-size: 1rem;
+  width: 415px;
+}
+
+#div-primeira-box-do-section-apresentacao {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
