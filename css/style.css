@@ -517,10 +517,10 @@ footer span{
     display: flex;
     gap: 10px;
     flex-direction: column;
-    margin: 0 10px
+    width: calc(100% - 20px);
   }
 
   #section-inscrever p {
-    margin: 0 10px;
+    width: calc(100% - 20px);
   }
 }
