@@ -512,4 +512,15 @@ footer span{
   #navegacao-principal div { 
     display: none;
   }
+  
+  #div-primeira-box-do-section-apresentacao {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin: 0 10px
+  }
+
+  #section-inscrever p {
+    margin: 0 10px;
+  }
 }
